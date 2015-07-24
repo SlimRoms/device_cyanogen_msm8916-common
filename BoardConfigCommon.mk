@@ -191,3 +191,11 @@ WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 # inherit from the proprietary version
 -include vendor/cyanogen/msm8916-common/BoardConfigVendor.mk
+
+# TWRP
+TW_THEME := portrait_hdpi
+TW_NEW_ION_HEAP := true
+TW_TARGET_USES_QCOM_BSP := true
+RECOVERY_GRAPHICS_USE_LINELENGTH := true
+TW_INCLUDE_CRYPTO := true
+TARGET_RECOVERY_QCOM_RTC_FIX := true
