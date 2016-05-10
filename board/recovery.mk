@@ -1,0 +1,10 @@
+# Recovery
+TARGET_RECOVERY_UPDATER_LIBS := librecovery_updater_cm
+
+# TWRP
+TW_THEME := portrait_hdpi
+TW_NEW_ION_HEAP := true
+TW_TARGET_USES_QCOM_BSP := true
+RECOVERY_GRAPHICS_USE_LINELENGTH := true
+TW_INCLUDE_CRYPTO := true
+TARGET_RECOVERY_QCOM_RTC_FIX := true
